@@ -30,12 +30,9 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live site](https://slimbloodworth.github.io/html-email-template/)
 
 ## My process
 
@@ -43,14 +40,9 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- HTML tables
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-
 
 ### What I learned
 
@@ -59,7 +51,10 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmls="http://www.w3.org/1999/xhtml">
+<!-- ^^ In HTML emails we still use XHTML Transitional 1.0 as our document type as it is the most compatible document type across email clients ^^ -->
 ```
 ```css
 .proud-of-this-css {
@@ -71,7 +66,6 @@ const proudOfThisFunc = () => {
   console.log('🎉')
 }
 ```
-
 
 ### Continued development
 
@@ -87,11 +81,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Michelle Renee](https://michellerenee.dev)
+- Website - [michellerenee.dev](https://michellerenee.dev)
 - Facebook - [Creative Software Solutions](https://www.facebook.com/profile.php?id=100073842390690)
 - Twitter - [@michellere57052](https://twitter.com/michellere57052)
 - CodePen - [@slimbloodworth](https://codepen.io/slimbloodworth)
-- LinkedIn - [Michelle Renee](https://www.linkedin.com/in/michelle-renee-99b455187/)
+- LinkedIn - [Michelle Renee Bloodworth](https://www.linkedin.com/in/michelle-renee-99b455187/)
 - GitHub - [@slimbloodworth](https://github.com/SlimBloodworth)
 
 ## Acknowledgments
