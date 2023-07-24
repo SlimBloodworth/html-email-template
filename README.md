@@ -13,9 +13,6 @@ An HTML Email Template
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -87,7 +84,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 - CodePen - [@slimbloodworth](https://codepen.io/slimbloodworth)
 - LinkedIn - [Michelle Renee Bloodworth](https://www.linkedin.com/in/michelle-renee-99b455187/)
 - GitHub - [@slimbloodworth](https://github.com/SlimBloodworth)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project.
