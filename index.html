@@ -57,9 +57,29 @@
             vertical-align: top;
             text-align: center;
         }
-        .column {
-            background-color: #ffffff;
-            
+
+        .three-columns {
+            text-align: center;
+            font-size: 0;
+            padding: 15px 0 25px;
+        }
+
+        .three-columns .column{
+            width: 100%;
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .three-columns .padding {
+            padding: 15px;
+        }
+
+        .three-columns .content {
+            font-size: 15px;
+            line-height: 20px;
+            padding: 0 5px;
         }
         
     </style>
@@ -116,6 +136,7 @@
                     <table width="100%">
                         <tr>
                             <td class="three-columns">
+                                <!-- col -1 -->
                                 <table class="column">
                                     <tr>
                                         <td class="padding">
@@ -123,6 +144,52 @@
                                                 <tr>
                                                     <td>
                                                         <a href="#"><img src="img/icons8-email-50.png" alt="" width="130px"style="max-width: 130px;"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-weight: bold;font-size: 17px;">Column 1 Heading Text</p>
+                                                        <p>Column 1 descriptive text</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- col -2 -->
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="img/icons8-email-50.png" alt="" width="130px"style="max-width: 130px;"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-weight: bold;font-size: 17px;">Column 2 Heading Text</p>
+                                                        <p>Column 2 descriptive text</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- col -3 -->
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="img/icons8-email-50.png" alt="" width="130px"style="max-width: 130px;"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-weight: bold;font-size: 17px;">Column 3 Heading Text</p>
+                                                        <p>Column 3 descriptive text</p>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -134,7 +201,45 @@
                     </table>
                 </td>
             </tr>
-<!-- TWO COLUMN SECTION -->
+            <!-- TWO COLUMN SECTION -->
+            <tr>
+                <td>
+                    <table width="100%" style="background-color: #26292b; color: #ffffff;">
+                        <tr>
+                            <td class="two-columns last-column">
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="img/jumpstart-michelle-bloodworth-square.png" alt="" width="260px" style="max-width: 260px;"></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-weight: bold; font-size: 18px;">Column Heading</p>
+                                                        <p>Column descriptive text.</p>
+                                                        <a href="#" class="button">CTA/Learn More</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
         </table>
     </center>
 </body>
