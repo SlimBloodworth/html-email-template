@@ -26,6 +26,8 @@
         img {
             border: 0;
         }
+
+        /*Main Body*/
     
         .wrapper {
             width: 100%;
@@ -80,6 +82,29 @@
             font-size: 15px;
             line-height: 20px;
             padding: 0 5px;
+        }
+
+        .two-columns.last-column {
+            padding: 15px 0;
+        }
+
+        .two-columns .padding {
+            padding: 20px;
+        }
+
+        .two-columns .content {
+            font-size: 15px;
+            line-height: 20px;
+            text-align: left;
+        }
+
+        .button {
+            background-color: #ffffff;
+            color: #171a1b;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
         }
         
     </style>
@@ -204,7 +229,7 @@
             <!-- TWO COLUMN SECTION -->
             <tr>
                 <td>
-                    <table width="100%" style="background-color: #26292b; color: #ffffff;">
+                    <table width="100%" style="background-color: #26292b; color: #ffffff; max-width: 600px;">
                         <tr>
                             <td class="two-columns last-column">
                                 <table class="column">
@@ -227,7 +252,7 @@
                                                 <tr>
                                                     <td>
                                                         <p style="font-weight: bold; font-size: 18px;">Column Heading</p>
-                                                        <p>Column descriptive text.</p>
+                                                        <p style="padding-bottom: 16px;">Column descriptive text.</p>
                                                         <a href="#" class="button">CTA/Learn More</a>
                                                     </td>
                                                 </tr>
@@ -240,6 +265,8 @@
                     </table>
                 </td>
             </tr>
+            <!-- Title, Text, Button-->
+            <!-- Footer -->
         </table>
     </center>
 </body>
