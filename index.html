@@ -98,26 +98,36 @@
             text-align: left;
         }
 
-        .button {
-            background-color: #ffffff;
-            color: #171a1b;
+        .button, .button-dark {
             text-decoration: none;
             padding: 12px 20px;
             border-radius: 5px;
             font-weight: bold;
+        }
+
+        .button {
+            background-color: #ffffff;
+            color: #171a1b;
+           
+        }
+
+        .button-dark{
+
+            background-color: #171a1b;
+            color: #ffffff;
         }
         
     </style>
 </head>
 <body>
     <!--center tag is no longer useful in HTML 5, but it is still useful in email template development. This keeps the email template centered inside of email clients.-->    
-    <center class="wrapper">        
-        <table class="main" width="100%">
+    <center class="wrapper main">        
+        <table width="100%">
              <!-- TOP BORDER -->
             <tr>
                 <td height="8px" style="background-color: #171a1b;"></td>
             </tr>
-<!-- LOGO SECTION -->
+            <!-- LOGO SECTION -->
             <tr>
                 <td style="padding: 14px 0 4px;">
                     <table width="100%">
@@ -151,7 +161,7 @@
             <!-- BANNER IMAGE -->
             <tr>
                 <td>
-                    <a href="#"><img src="img/jumpstart-michelle-bloodworth-square.png" alt="Nucamp Jumpstart Program with Michelle Bloodworth" width="600px" style="max-width: 100%;"></a>
+                    <a href="#"><img src="img/jumpstart-michelle-bloodworth-square.png" alt="Nucamp Jumpstart Program banner" width="600px" style="max-width: 100%;"></a>
             <!-- ^^ replace banner image and anchor link with your banner image and anchor link -->                    
                 </td>
             </tr>
@@ -229,7 +239,7 @@
             <!-- TWO COLUMN SECTION -->
             <tr>
                 <td>
-                    <table width="100%" style="background-color: #26292b; color: #ffffff; max-width: 600px;">
+                    <table width="100%" style="background-color: #26292b; color: #ffffff;">
                         <tr>
                             <td class="two-columns last-column">
                                 <table class="column">
@@ -238,7 +248,7 @@
                                             <table class="content">
                                                 <tr>
                                                     <td>
-                                                        <a href="#"><img src="img/nucampIconLogo.webp" alt="" width="260px" style="max-width: 260px;"></a>
+                                                        <a href="#"><img src="img/nucampIconLogo.webp" alt="" width="180px" style="max-width: 260px;"></a>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -266,7 +276,39 @@
                 </td>
             </tr>
             <!-- Title, Text, Button-->
+            <tr>
+                <td style="padding: 15px 0 50px;">
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center; padding: 15px;">
+                                <p style="font-size: 20px; font-weight: bold;">Section Title Text</p>
+                                <p style="line-height: 23px; font-size: 15px; padding: 5px 0 15px;">Descriptive text for section: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis deleniti nesciunt inventore aut voluptatibus culpa sint placeat fugit, ipsum et rem veniam, expedita recusandae animi doloribus cumque? Numquam, tempore.</p>
+                                <a href="#" class="button-dark">CTA/Learn More</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
             <!-- Footer -->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center; background-color: #26292b; color: #ffffff;">
+                                <a href="#"><img src="img/jumpstart-social-banner-linkedin.png" alt="Nucamp Jumpstart Coding workshop" style="max-width: 100%;"></a>
+                                <p style="padding: 10px;">Section Text</p>
+                                <p style="padding: 10px;">Section Text</p>
+                                <a href="#"><img src="img/icons8-linkedin-48.png" alt="LinkedIn" width="30px"></a>
+                                <a href="#"><img src="img/icons8-facebook-48.png" alt="Facebook" width="30px"></a>
+                                <a href="#"><img src="img/icons8-twitter-48.png" alt="Twitter" width="30px"></a>
+                                <a href="#"><img src="img/icons8-instagram-48.png" alt="Instagram" width="30px"></a>
+                                <!-- ^^ Insert your social media links -->
+                                <p style="padding: 10px"><a href="#" style="text-decoration: none; color: #ffffff;">CTA/SUBSCRIBE</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
         </table>
     </center>
 </body>
