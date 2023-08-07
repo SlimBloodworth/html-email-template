@@ -4,7 +4,7 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Live Url](#live-url)  
+  - [Live URL](#live-url)  
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
