@@ -3,7 +3,8 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)  
+  - [The challenge](#the-challenge)
+  - [Live Url](#live-url)  
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -23,6 +24,10 @@ Users should be able to:
 - CSS Inline properties
 - HTML tables
 - Mobile-first workflow
+
+### Live URL
+
+- [Live Site To View](https://slimbloodworth.github.io/html-email-template/)
 
 ### Useful resources
 
