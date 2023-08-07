@@ -2,4 +2,4 @@
 .DS_Store
 
 # ignore notes file
-/notes.txt
+notes.txt
